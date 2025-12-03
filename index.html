@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANZIT - Venta de Motos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Encabezado con navegación -->
+    <header>
+        <nav class="navbar">
+            <img src="icons/motorbike.svg" alt="Logo moto" class="logo">
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#inicio">
+                        <img src="icons/building-store.svg" class="nav-icon" alt="Icono de tienda"> Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#modelos">
+                        <img src="icons/motorbike.svg" class="nav-icon" alt="Icono de motocicleta"> Modelos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#promociones">
+                        <img src="icons/brand-shopee.svg" class="nav-icon" alt="Icono de promociones"> Promociones
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contacto">
+                        <img src="icons/brand-whatsapp.svg" class="nav-icon" alt="Icono de WhatsApp"> Contacto
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección Inicio -->
+        <section id="inicio" class="hero">
+            <h1>Bienvenido a TRANZIT</h1>
+            <p>Tu tienda online de motos nuevas y usadas al mejor precio.</p>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRVafbNZiwiBTcKyXx26gxKoXnJg34hLTw3g&s"
+                alt="Moto moderna" class="hero-img">
+        </section>
+
+        <!-- Sección Modelos -->
+        <section id="modelos" class="modelos">
+            <h2>Modelos Disponibles</h2>
+
+            <div class="grid-modelos">
+
+                <article class="card">
+                    <img src="https://www.yamahamotos.cl/wp-content/uploads/2020/01/yz_125x_1-1.jpg" alt="Moto Enduro">
+                    <h3>Enduro</h3>
+                    <p>Perfecta para terrenos difíciles y aventuras extremas.</p>
+                </article>
+
+                <article class="card">
+                    <img src="https://motoriwata.com/wp-content/uploads/2024/02/2025-Yamaha-MT320-EU-Midnight_Black-360-Degrees-001-03.jpg"
+                        alt="Moto deportiva">
+                    <h3>Deportiva</h3>
+                    <p>Velocidad, diseño aerodinámico y máximo rendimiento.</p>
+                </article>
+
+                <article class="card">
+                    <img src="https://motopower.vtexassets.com/arquivos/ids/163000/49694.png.png?v=638820543487970000"
+                        alt="Moto utilitaria">
+                    <h3>Utilitaria</h3>
+                    <p>Económica, ligera y perfecta para uso diario.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección Promociones -->
+        <section id="promociones" class="promociones">
+            <h2>Promociones del Mes</h2>
+            <p>Por la compra de cualquier modelo este mes incluye:</p>
+
+            <div class="promo-grid">
+
+                <article class="promo-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-n8zldLd1zIyQ6C8FSDF_wISbh43TCo9GnA&s"
+                        alt="Casco de seguridad">
+                    <h3>Casco de seguridad</h3>
+                </article>
+
+                <article class="promo-item">
+                    <img src="https://eljuri.store/13576-thickbox_default/aceite-moto-7100-20w50-sintetico-1l.webp"
+                        alt="Litro de aceite">
+                    <h3>1 litro de aceite</h3>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="tuemail@ejemplo.com" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit" class="btn-enviar">
+                    <img src="icons/send.svg" class="icono" alt="Icono enviar">
+                    Enviar
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Pié de página -->
+    <footer>
+        <p>&copy; 2025 TRANZIT | Venta de Motos</p>
+    </footer>
+
+</body>
+
+</html>
+

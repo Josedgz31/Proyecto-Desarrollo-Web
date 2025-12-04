@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRANZIT - Venta de Motos</title>
+
+    <!-- Archivo CSS externo -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
 
-    <!-- Encabezado con navegación -->
+    <!-- ===== HEADER + NAVBAR ===== -->
     <header>
         <nav class="navbar">
+            <!-- Logo de la tienda -->
             <img src="icons/motorbike.svg" alt="Logo moto" class="logo">
 
+            <!-- Enlaces del menú -->
             <ul class="nav-links">
 
                 <li>
@@ -41,14 +45,19 @@
                     </a>
                 </li>
 
+                <!-- Botón para cambiar el tema (CLARO / OSCURO) -->
+                <li>
+                    <button id="btnTema" class="btn-tema">🌙</button>
+                </li>
+
             </ul>
         </nav>
     </header>
 
-    <!-- Contenido principal -->
+    <!-- ===== CONTENIDO PRINCIPAL ===== -->
     <main>
 
-        <!-- Sección Inicio -->
+        <!-- HERO -->
         <section id="inicio" class="hero">
             <h1>Bienvenido a TRANZIT</h1>
             <p>Tu tienda online de motos nuevas y usadas al mejor precio.</p>
@@ -57,12 +66,13 @@
                 alt="Moto moderna" class="hero-img">
         </section>
 
-        <!-- Sección Modelos -->
+        <!-- MODELOS -->
         <section id="modelos" class="modelos">
             <h2>Modelos Disponibles</h2>
 
             <div class="grid-modelos">
 
+                <!-- Cada tarjeta es un artículo semántico -->
                 <article class="card">
                     <img src="https://www.yamahamotos.cl/wp-content/uploads/2020/01/yz_125x_1-1.jpg" alt="Moto Enduro">
                     <h3>Enduro</h3>
@@ -86,7 +96,7 @@
             </div>
         </section>
 
-        <!-- Sección Promociones -->
+        <!-- PROMOCIONES -->
         <section id="promociones" class="promociones">
             <h2>Promociones del Mes</h2>
             <p>Por la compra de cualquier modelo este mes incluye:</p>
@@ -108,11 +118,13 @@
             </div>
         </section>
 
-        <!-- Sección Contacto -->
+        <!-- FORMULARIO DE CONTACTO -->
         <section id="contacto" class="contacto">
             <h2>Contáctanos</h2>
 
-            <form>
+            <!-- FORMULARIO con validación JS -->
+            <form id="formContacto">
+
                 <label for="nombre">Nombre</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
@@ -123,7 +135,7 @@
                 <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
 
                 <button type="submit" class="btn-enviar">
-                    <img src="icons/send.svg" class="icono" alt="Icono enviar">
+                    <img src="icons/send-2.svg" class="icono" alt="Icono enviar">
                     Enviar
                 </button>
             </form>
@@ -131,12 +143,14 @@
 
     </main>
 
-    <!-- Pié de página -->
+    <!-- FOOTER -->
     <footer>
         <p>&copy; 2025 TRANZIT | Venta de Motos</p>
     </footer>
 
-</body>
+    <!-- Archivo JavaScript -->
+    <script src="js/main.js"></script>
 
+</body>
 </html>
 

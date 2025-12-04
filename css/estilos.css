@@ -7,7 +7,7 @@
 
 /* ===== COLORES Y FUENTE GENERAL ===== */
 body {
-    background: #fef2f2; /* rojo muy claro */
+    background: #fef2f2; 
     color: #2e2e2e;
     font-family: Arial, Helvetica, sans-serif;
     transition: background 0.3s, color 0.3s;
@@ -15,18 +15,18 @@ body {
 
 /* ===== MODO OSCURO ===== */
 body.dark {
-    background: #450a0a; /* rojo oscuro */
+    background: #450a0a; 
     color: white;
 }
 
 body.dark .navbar {
-    background: #7f1d1d; /* rojo vino */
+    background: #7f1d1d; 
 }
 
 body.dark .card,
 body.dark form,
 body.dark .promo-item {
-    background: #991b1b; /* rojo oscuro */
+    background: #991b1b; 
     color: white;
 }
 
@@ -39,7 +39,7 @@ body.dark footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #dc2626; /* rojo principal claro */
+    background: #dc2626; 
     padding: 15px 40px;
     position: sticky;
     top: 0;
@@ -65,7 +65,7 @@ body.dark footer {
 }
 
 .nav-links li a:hover {
-    color: #e03333; /* rosado claro */
+    color: #c3e033; 
 }
 
 /* Botón para cambiar tema */
@@ -79,14 +79,14 @@ body.dark footer {
 }
 
 .btn-tema:hover {
-    background: #ffe4e6; /* rosado claro */
+    background: #d9d66c; 
 }
 
 /* ===== HERO ===== */
 .hero {
     text-align: center;
     padding: 60px 20px;
-    background: linear-gradient(135deg, #dc2626, #f87171); /* rojo claro */
+    background: linear-gradient(135deg, #dc2626, #f87171); 
     color: white;
 }
 
@@ -136,7 +136,7 @@ body.dark footer {
 
 /* ===== PROMOCIONES ===== */
 .promociones {
-    background: #65050b; /* rosado pastel */
+    background: #65050b; 
     padding: 50px 20px;
     text-align: center;
 }
@@ -184,8 +184,8 @@ input, textarea {
 
 /* Botón enviar */
 .btn-enviar {
-    background: #dc2626; /* rojo claro */
     color: white;
+    background: #dc2626; 
     padding: 12px 20px;
     border: none;
     border-radius: 10px;
@@ -196,14 +196,14 @@ input, textarea {
 }
 
 .btn-enviar:hover {
-    background: #ef4444; /* rojo más vivo */
+    background: #ef4444; 
 }
 
 /* ===== FOOTER ===== */
 footer {
     text-align: center;
     padding: 15px;
-    background: #dc2626; /* rojo claro */
+    background: #dc2626; 
     color: white;
     margin-top: 40px;
 }
